@@ -1,6 +1,6 @@
 {
   "name": "havana-static",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A static response handler",
   "main": "dist/static.js",
   "scripts": {
@@ -21,7 +21,8 @@
     "havana",
     "isomorphic",
     "response",
-    "static"
+    "static",
+    "universal"
   ],
   "license": "ISC",
   "devDependencies": {

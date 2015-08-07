@@ -3788,12 +3788,14 @@ var Static = (function () {
     value: function init() {
       var _this = this;
 
-      var event = _.get(this).event;
-      var files = _.get(this).files;
-      var name = _.get(this).name;
-      var reporting = _.get(this).reporting;
-      var rootDir = _.get(this).rootDir;
-      var staticDir = _.get(this).staticDir;
+      var _$get = _.get(this);
+
+      var event = _$get.event;
+      var files = _$get.files;
+      var name = _$get.name;
+      var reporting = _$get.reporting;
+      var rootDir = _$get.rootDir;
+      var staticDir = _$get.staticDir;
 
       if (reporting.level > 1) {
         reporting.reporter('-- Response handler registered: ' + name);
@@ -3872,7 +3874,10 @@ var Static = (function () {
     key: 'getMimeType',
     value: function getMimeType(file) {
       var extension = file.split('.').pop();
-      var mimeTypes = _.get(this).mimeTypes;
+
+      var _$get2 = _.get(this);
+
+      var mimeTypes = _$get2.mimeTypes;
 
       for (var ext in mimeTypes) {
         if (extension === ext) {
