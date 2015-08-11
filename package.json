@@ -1,6 +1,6 @@
 {
   "name": "havana-static",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A static response handler",
   "main": "dist/static.js",
   "scripts": {
@@ -30,9 +30,10 @@
     "chai": "3.2.x",
     "gulp": "3.9.x",
     "gulp-babel": "5.1.x",
-    "gulp-concat": "2.6.x",
     "gulp-eslint": "0.15.x",
+    "gulp-insert": "0.5.x",
     "gulp-mocha": "2.1.x",
+    "gulp-rename": "1.2.x",
     "havana-event": "0.x"
   }
 }
