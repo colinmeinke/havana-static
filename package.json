@@ -1,6 +1,6 @@
 {
   "name": "havana-static",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A static response handler",
   "main": "dist/static.js",
   "scripts": {
