@@ -1,5 +1,6 @@
 # Havana static
 
+[![NPM version](https://badge.fury.io/js/havana-static.svg)](http://badge.fury.io/js/havana-static)
 [![Build Status](https://travis-ci.org/colinmeinke/havana-static.svg?branch=master)](https://travis-ci.org/colinmeinke/havana-static)
 [![Dependency status](https://david-dm.org/colinmeinke/havana-static.svg)](https://david-dm.org/colinmeinke/havana-static.svg)
 
